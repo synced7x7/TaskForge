@@ -3,7 +3,7 @@ const User = require('../models/User')
 async function registerUser(req, res) {
 
     try {
-        const { username, email, password, role } = req.body
+        const { username, email, password } = req.body
 
         const existingUser = await (User.findOne({ email }))
 
@@ -18,7 +18,7 @@ async function registerUser(req, res) {
             username,
             email,
             password,
-            role: role || 'user',
+            role: 'user'
         })
 
         res.send('User created successfully')
