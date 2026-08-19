@@ -42,4 +42,4 @@ MongoDB
 
 ## Goal
 
-Built from scratch with minimal AI-generated code to improve coding independence, problem-solving, and full-stack development skills.
+Built from scratch to get a fresh hand practice for the interview prep.
